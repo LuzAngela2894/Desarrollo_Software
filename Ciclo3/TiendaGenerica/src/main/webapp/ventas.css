@@ -1,0 +1,34 @@
+@charset "ISO-8859-1";
+
+@import
+	url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body {
+	background: #764e80;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.Volver {
+	position: absolute;
+	bottom: 0px;
+	padding: 0 10px;
+	background: #14c7b8;
+	color: #fff;
+	line-height: 70px;
+	font-size: 50px;
+	box-shadow: 0 3px 5px 0px rgba(0, 0, 0, .2);
+	transition: .2s;
+	border-radius: 5px;
+	font-size: 15px;
+	width: 110px;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	display: inline-block;
+}
+
+.ToLeft {
+	float: left;
+	left: 90%;
+	z-index: 0;
+	position: absolute;
+}

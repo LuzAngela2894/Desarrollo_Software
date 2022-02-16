@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Crear Proveedores</title>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+<link rel="stylesheet" href="crear.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+ul{list-style:none;}
+</style>
+</head>
+<body>
+	<div class="container">
+		<div class="title">Crear Proveedor</div>
+		<form action="crearProveedores.jsp" method="post">
+			<div class="detalles">
+				<div class="input-box">
+					<span class="details">NIT:</span> <input type="text" name="nit"
+						placeholder="Ingrese su NIT" required>
+				</div>
+				<div class="input-box">
+					<span class="details">Nombre Proveedor:</span> <input type="text"
+						name="nombre" placeholder="Ingrese su Nombre" required>
+				</div>
+				<div class="input-box">
+					<span class="details">Dirección:</span> <input type="text"
+						name="direccion" placeholder="Ingrese su Dirección" required>
+				</div>
+				<div class="input-box">
+					<span class="details">Teléfono:</span> <input type="text"
+						name="telefono" placeholder="Ingrese su Teléfono" required>
+				</div>
+				<div class="input-box">
+					<span class="details">Ciudad:</span> <input type="text"
+						name="ciudad" placeholder="Ingrese su Ciudad" required>
+				</div>
+				<div>
+					<button class="crear" type="submit">Crear</button>
+				</div>
+				<ul>
+					<li><a href="menuProveedores.html" class="Volver"><i
+							class="fas fa-undo-alt"></i>Volver</a></li>
+				</ul>
+			</div>
+		</form>
+	</div>
+</body>
+</html>

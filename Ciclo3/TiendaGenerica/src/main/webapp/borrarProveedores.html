@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Borrar Proveedores</title>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+<link rel="stylesheet" href="borrar.css">
+<style>
+ul{list-style:none;}
+</style>
+</head>
+<body>
+	<div class="container">
+		<div class="title">Borrar Proovedor</div>
+		<form action="borrarProveedores.jsp" method="post">
+			<div class="detalles">
+				<div class="input-box">
+					<span class="details">NIT:</span> <input type="text" name="nit"
+						placeholder="Ingrese su NIT" required>
+				</div>
+				<div>
+					<button class="borrar" type="submit">Borrar</button>
+				</div>
+				<ul>
+					<li><a href="menuProveedores.html" class="Volver"><i
+							class="fas fa-undo-alt"></i>Volver</a></li>
+				</ul>
+			</div>
+		</form>
+	</div>
+</body>
+</html>

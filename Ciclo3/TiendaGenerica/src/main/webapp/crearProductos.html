@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Crear Productos</title>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+<link rel="stylesheet" href="crear.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+ul{list-style:none;}
+</style>
+</head>
+<body>
+	<div class="container">
+		<img class="avatar" src="plus.png" alt="avatar">
+		<div class="title">Crear Producto</div>
+		<form action="crearProductos.jsp" method="post">
+			<div class="detalles">
+				<div class="input-box">
+					<span class="details">Código Producto:</span> <input type="text"
+						name="codigo" placeholder="Ingrese Código Producto" required>
+				</div>
+				<div class="input-box">
+					<span class="details">Nombre Producto:</span> <input type="text"
+						name="nombre" placeholder="Ingrese Nombre Producto" required>
+				</div>
+				<div class="input-box">
+					<span class="details">Nit Proveedor:</span> <input type="text"
+						name="nit" placeholder="Ingrese Nit Proveedor" required>
+				</div>
+				<div class="input-box">
+					<span class="details">Precio Compra:</span> <input type="text"
+						name="pcompra" placeholder="Ingrese Precio Compra" required>
+				</div>
+				<div class="input-box">
+					<span class="details">Iva Compra:</span> <input type="number"
+						name="icompra" value="19" required>
+				</div>
+				<div class="input-box">
+					<span class="details">Precio Venta:</span> <input type="text"
+						name="pventa" placeholder="Ingrese Precio Venta" required>
+				</div>
+				<div>
+					<button class="crear" type="submit">Crear</button>
+				</div>
+				<ul>
+					<li><a href="menuProductos.html" class="Volver"><i
+							class="fas fa-undo-alt"></i>Volver</a></li>
+				</ul>
+			</div>
+		</form>
+	</div>
+</body>
+</html>

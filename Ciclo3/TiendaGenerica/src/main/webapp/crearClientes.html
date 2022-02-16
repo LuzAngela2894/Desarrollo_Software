@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Crear Clientes</title>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+<link rel="stylesheet" href="crear.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+ul{list-style:none;}
+</style>
+</head>
+<body>
+	<div class="container">
+	<img class="avatarcliente" src="user.png" alt="avatar">
+		<div class="title">Crear Cliente</div>
+		<form action="crearClientes.jsp" method="post">
+			<div class="detalles">
+				<div class="input-box">
+					<span class="details">Cédula:</span> <input type="text"
+						name="cedula" placeholder="Ingrese su Cédula" required>
+				</div>
+				<div class="input-box">
+					<span class="details">Nombre Completo:</span> <input type="text"
+						name="nombre" placeholder="Ingrese su Nombre" required>
+				</div>
+				<div class="input-box">
+					<span class="details">Dirección:</span> <input type="text"
+						name="direccion" placeholder="Ingrese su Dirección" required>
+				</div>
+				<div class="input-box">
+					<span class="details">Teléfono:</span> <input type="text"
+						name="telefono" placeholder="Ingrese su Teléfono" required>
+				</div>
+				<div class="input-box">
+					<span class="details">Correo Electrónico:</span> <input type="text"
+						name="email" placeholder="Ingrese su Correo" required>
+				</div>
+				<div>
+					<button class="crear" type="submit">Crear</button>
+				</div>
+				<ul>
+					<li><a href="menuClientes.html" class="Volver"><i
+							class="fas fa-undo-alt"></i>Volver</a></li>
+				</ul>
+			</div>
+		</form>
+	</div>
+</body>
+</html>

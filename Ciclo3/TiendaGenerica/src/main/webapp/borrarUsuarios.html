@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Borrar Usuarios</title>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+<link rel="stylesheet" href="borrar.css">
+<style>
+ul{list-style:none;}
+</style>
+</head>
+<body>
+	<div class="container">
+		<img class="avatar" src="x-button.png" alt="serach">
+		<div class="title">Borrar Usuario</div>
+		<form action="borrarUsuarios.jsp" method="post">
+			<div class="detalles">
+				<div class="input-box">
+					<span class="details">Cédula:</span> 
+					<input type="text" name="cedula" placeholder="Ingrese su Cédula" required>
+				</div>
+				<div>
+					<button class="borrar" type="submit">Borrar</button>
+				</div>
+				<ul>
+					<li><a href="menuUsuarios.html" class="Volver"><i class="fas fa-undo-alt"></i>Volver</a></li>
+				</ul>
+			</div>
+		</form>
+	</div>
+</body>

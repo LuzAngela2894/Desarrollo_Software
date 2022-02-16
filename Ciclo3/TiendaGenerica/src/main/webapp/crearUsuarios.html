@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Crear Usuarios</title>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+<link rel="stylesheet" href="crear.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+ul{list-style:none;}
+</style>
+</head>
+<body>
+	<div class="container">
+	<img class="avatar" src="user.png" alt="avatar">
+		<div class="title">Crear Usuario</div>
+		<form action="crearUsuarios.jsp" method="post">
+			<div class="detalles">
+				<div class="input-box">
+					<span class="details">Cédula:</span> <input type="text"
+						name="cedula" placeholder="Ingrese su Cédula" required>
+				</div>
+				<div class="input-box">
+					<span class="details">Nombre:</span> <input type="text"
+						name="nombre" placeholder="Ingrese su Nombre" required>
+				</div>
+				<div class="input-box">
+					<span class="details">Correo Electrónico:</span> <input type="text"
+						name="email" placeholder="Ingrese su Correo" required>
+				</div>
+				<div class="input-box">
+					<span class="details">Usuario:</span> <input type="text"
+						name="usuario" placeholder="Ingrese su Usuario" required>
+				</div>
+				<div class="input-box">
+					<span class="details">Contraseña:</span> <input type="password"
+						name="contrasena" placeholder="Ingrese su Contraseña" required>
+				</div>
+				<div class="input-box">
+					<span class="details">Rol:</span> <input type="text" name="rol"
+						value="usuario">
+				</div>
+				<div>
+					<button class="crear" type="submit">Crear</button>
+				</div>
+				<ul>
+					<li><a href="menuUsuarios.html" class="Volver"><i
+							class="fas fa-undo-alt"></i>Volver</a></li>
+				</ul>
+			</div>
+		</form>
+	</div>
+</body>
+</html>

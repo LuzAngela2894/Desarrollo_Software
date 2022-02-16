@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Index</title>
+<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<div class="login-box">
+		<img class="avatar" src="shop.png" alt="logo shop">
+		<h1>Bienvenidos a la Tienda Genérica</h1>
+		<form action="login.jsp" method="post">
+			<!--ROL-->
+			<div class="select">
+				<select name="rol" id="format">
+					<option selected disabled>Seleccione su Rol</option>
+					<option value="administrador">Administrador</option>
+					<option value="usuario">Usuario</option>
+				</select>
+			</div>
+			<!--USUARIOS-->
+			<label>Usuario</label> <input type="text" name="usuario"
+				placeholder="Ingrese su Usuario">
+			<!--CONTRASEÑA-->
+			<label>Contraseña</label> <input type="password" name="contrasena"
+				placeholder="Ingrese su Contraseña">
+			<!--BOTÓN-->
+			<input type="submit">
+		</form>
+	</div>
+</body>
+</html>
