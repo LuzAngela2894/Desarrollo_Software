@@ -1,7 +1,7 @@
 # Desarrollo_Software
 Ciclo 3 UEB MINTIC Desarrollo de Software (Java y Spring Boot)
 
-**Proyecto de software para gestionar transacciones comerciales de una tienda genérica**
+**PROYECTO DE SOFTWARE PARA GESTIONAR TRANSACCIONES COMERCIALES DE UNA TIENDA GENÉRICA**
 
 Dentro de los diferentes tipos de negocios que se pueden presentar en la economía de cualquier ciudad o país, existen aquellos que compran a sus proveedores diferentes productos o insumos que, con estos pueden producir los productos que venden a sus clientes a los que se les genera una factura de venta, y estos realizan los pagos de diferentes formas. Este tipo de negocio lo llamaremos en lo sucesivo “tienda genérica”, y en ese sentido, EL EQUIPO realizará el desarrollo de tal forma que pueda implementarse en todos los tipos de negocios que operen bajo esta modalidad, cumpliendo los requerimientos que abajo se detallan.
 
