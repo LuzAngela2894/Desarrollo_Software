@@ -20,6 +20,7 @@ EL EQUIPO deberá desarrollar el módulo de gestión de los clientes de la tiend
 EL EQUIPO deberá desarrollar el módulo de gestión de los proveedores de la tienda, para lo cual se deberán tener las opciones de crear proveedor, leer proveedor, actualizar datos de proveedor, y borrar proveedor. Estos datos se almacenarán en una tabla llamada proveedores, y los datos a gestionar son: NIT, nombre proveedor, dirección, teléfono, y ciudad.
 
 **5. MÓDULO DE GESTIÓN DE PRODUCTOS**
+EL EQUIPO deberá desarrollar el módulo de gestión de los productos que se venden en la tienda, para lo cual se deberá cargar estos productos de un archivo plano (de texto).
 
 **6. MÓDULO DE GESTIÓN DE VENTAS**
 EL EQUIPO deberá desarrollar el módulo de gestión de las ventas que se realicen en la tienda. El sistema, buscará los datos del cliente por cédula. Posteriormente, el sistema permitirá escribir el código del producto, y se visualizará el nombre de este en pantalla. Se digitará la cantidad a vender, y generará el valor total de venta por producto. El sistema permitirá que se realice la misma operación con otros productos hasta que se le dé la opción de totalizar. En ese momento, el sistema calculará el valor del total de IVA para tres (3) productos, según el valor de IVA definido para cada producto, y luego dará el valor total con IVA.
